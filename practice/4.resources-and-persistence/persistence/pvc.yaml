@@ -6,6 +6,7 @@ metadata:
 spec:
   accessModes:
   - ReadWriteMany
+  storageClassName: csi-ceph-hdd-dp1
   resources:
     requests:
       storage: 1Gi
